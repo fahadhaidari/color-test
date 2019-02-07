@@ -22,7 +22,7 @@ window.onload = function() {
       context.fillStyle = '#' + color;
 
       if (!color) color = DEFAULT_COLOR;
-      fillColor(color);
+      fillColor();
   });
 
   input.focus();
