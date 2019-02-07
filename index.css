@@ -1,0 +1,22 @@
+canvas {
+  background: #EEEEEE;
+  display: block;
+  margin: 0px auto;
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+  background: #FFFFFF;
+  width: 40%;
+  font-size: 2em;
+  border: solid 2px #DDDDDD;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+}
+
+input::placeholder {
+  color: #DDDDDD;
+  font-size: 0.8em;
+}
