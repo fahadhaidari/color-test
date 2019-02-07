@@ -10,8 +10,6 @@ window.onload = function() {
   document.body.appendChild(buffer);
   document.body.appendChild(input);
 
-  input.placeholder = 'Enter color...'
-
   const fillColor = function() {
     context.fillStyle = color;
     context.fillRect(0, 0, WIDTH, HEIGHT);
